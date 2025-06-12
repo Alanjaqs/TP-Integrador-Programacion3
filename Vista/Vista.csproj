@@ -74,7 +74,6 @@
     <Content Include="EliminarPaciente.aspx" />
     <Content Include="Informes.aspx" />
     <Content Include="Inicio.aspx" />
-    <Content Include="InicioAdmin.aspx" />
     <Content Include="PanelAdministrador.aspx" />
     <Content Include="PanelMedicos.aspx" />
     <Content Include="PanelPacientes.aspx" />
@@ -129,13 +128,6 @@
     </Compile>
     <Compile Include="Inicio.aspx.designer.cs">
       <DependentUpon>Inicio.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="InicioAdmin.aspx.cs">
-      <DependentUpon>InicioAdmin.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="InicioAdmin.aspx.designer.cs">
-      <DependentUpon>InicioAdmin.aspx</DependentUpon>
     </Compile>
     <Compile Include="PanelAdministrador.aspx.cs">
       <DependentUpon>PanelAdministrador.aspx</DependentUpon>

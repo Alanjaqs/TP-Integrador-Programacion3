@@ -36,9 +36,8 @@
             <br /><br />
             Sexo:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:RadioButton ID="rbMasculino" runat="server" GroupName="Sexo" Text="Masculino" Checked="True" />
-            <asp:RadioButton ID="rbFemenino" runat="server" GroupName="Sexo" Text="Femenino" />
-            <asp:RadioButton ID="rbNoEspecifica" runat="server" GroupName="Sexo" Text="Prefiero no decir" />
+            <asp:DropDownList ID="ddlSexo" runat="server" Width="200px"></asp:DropDownList>
+            &nbsp;<asp:RequiredFieldValidator ID="rfvSexo" runat="server" ControlToValidate="ddlSexo" ErrorMessage="*" ForeColor="Red" ValidationGroup="1"></asp:RequiredFieldValidator>
             <br /><br />
             Nacionalidad:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:TextBox ID="txtNacionalidad" runat="server" Width="200px"></asp:TextBox>
@@ -74,16 +73,14 @@
             <br /><br />
             Especialidad:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:DropDownList ID="ddlEspecialidades" runat="server" Width="200px"></asp:DropDownList>
+            &nbsp;
+            <asp:RequiredFieldValidator ID="rfvEspecialidad" runat="server" ControlToValidate="ddlEspecialidades" ErrorMessage="*" ForeColor="Red" ValidationGroup="1"></asp:RequiredFieldValidator>
             <br /><br />
-            Dias de atención:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br /><br />
-            <asp:CheckBox ID="cbLunes" runat="server" Text="Lunes" /><br />
-            <asp:CheckBox ID="cbMartes" runat="server" Text="Martes" /><br />
-            <asp:CheckBox ID="cbMiercoles" runat="server" Text="Miercoles" /><br />
-            <asp:CheckBox ID="cbJueves" runat="server" Text="Jueves" /><br />
-            <asp:CheckBox ID="cbViernes" runat="server" Text="Viernes" /><br />
-            <asp:CheckBox ID="cbSabado" runat="server" Text="Sabado" /><br />
-            <asp:CheckBox ID="cbDomingo" runat="server" Text="Domingo" /><br /><br />
-            Horario de atención:
+            Dias de atención:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:DropDownList ID="ddlDiasAtencion" runat="server" Width="200px"></asp:DropDownList>
+            &nbsp;<asp:RequiredFieldValidator ID="rfvDiasAtencion" runat="server" ControlToValidate="ddlDiasAtencion" ErrorMessage="*" ForeColor="Red" ValidationGroup="1"></asp:RequiredFieldValidator>
+            <br /><br />
+            Horario de atención:&nbsp; <asp:DropDownList ID="ddlHorarioAtencion" runat="server" Width="200px"></asp:DropDownList>
+            &nbsp;<asp:RequiredFieldValidator ID="rfvHorarioAtencion" runat="server" ControlToValidate="ddlHorarioAtencion" ErrorMessage="*" ForeColor="Red" ValidationGroup="1"></asp:RequiredFieldValidator>
             <br /><br />
             Crear usuario:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:TextBox ID="txtUsuario" runat="server"></asp:TextBox>
