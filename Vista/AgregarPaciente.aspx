@@ -54,15 +54,15 @@
             <asp:RequiredFieldValidator ID="rfvDireccion" runat="server" ControlToValidate="txtDireccion" ErrorMessage="Debe ingresar una direccion" ForeColor="Red" ValidationGroup="1">*</asp:RequiredFieldValidator>
             &nbsp;<asp:RegularExpressionValidator ID="revDireccion" runat="server" ControlToValidate="txtDireccion" ErrorMessage="Debe ingresar solo letras en la  direccion" ForeColor="Red" ValidationExpression="[A-Za-z]+" ValidationGroup="1">*</asp:RegularExpressionValidator>
             <br /><br />
-            Localidad:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:DropDownList ID="ddlLocalidad" runat="server" Width="200px" ValidationGroup="1"></asp:DropDownList>
-            <asp:RequiredFieldValidator ID="rfvLocalidad" runat="server" ControlToValidate="ddlLocalidad" ErrorMessage="Debe seleccionar una localidad" ForeColor="Red" ValidationGroup="1">*</asp:RequiredFieldValidator>
-            <br /><br />
             Provincia:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:DropDownList ID="ddlProvincia" runat="server" Width="200px" ValidationGroup="1"></asp:DropDownList>
             <asp:RequiredFieldValidator ID="rfvProvincia" runat="server" ControlToValidate="ddlProvincia" ErrorMessage="Debe ingresar una provincia" ForeColor="Red" ValidationGroup="1">*</asp:RequiredFieldValidator>
+            <br /><br />
+            Localidad:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:DropDownList ID="ddlLocalidad" runat="server" Width="200px" ValidationGroup="1"></asp:DropDownList>
+            <asp:RequiredFieldValidator ID="rfvLocalidad" runat="server" ControlToValidate="ddlLocalidad" ErrorMessage="Debe seleccionar una localidad" ForeColor="Red" ValidationGroup="1">*</asp:RequiredFieldValidator>
             <br /><br />
             Correo electronico:&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:TextBox ID="txtCorreo" runat="server" TextMode="Email" Width="200px" ValidationGroup="1"></asp:TextBox>

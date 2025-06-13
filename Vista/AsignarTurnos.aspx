@@ -16,27 +16,27 @@
             <br />
             <br />
             Seleccione la Fecha del turno: &nbsp;<asp:TextBox ID="txtFechaTurno" runat="server" TextMode="Date" ValidationGroup="1" Width="184px"></asp:TextBox>
-            <asp:RequiredFieldValidator ID="rfvDia" runat="server" ControlToValidate="ddlDia" ErrorMessage="Debe seleccionar un fecha para el turno" ForeColor="#FF3300" ValidationGroup="1">*</asp:RequiredFieldValidator>
+            <asp:RequiredFieldValidator ID="rfvFecha" runat="server" ControlToValidate="txtFechaTurno" ErrorMessage="Debe seleccionar un fecha para el turno" ForeColor="#FF3300" ValidationGroup="1">*</asp:RequiredFieldValidator>
             <br /><br />
             Seleccione una especialidad:&nbsp;&nbsp;
             <asp:DropDownList ID="ddlEspecialidades" runat="server" Width="200px"></asp:DropDownList>
-            <asp:RequiredFieldValidator ID="rfvEspecialidad" runat="server" ErrorMessage="*" ControlToValidate="ddlEspecialidades" ForeColor="Red" ValidationGroup="1"></asp:RequiredFieldValidator>
+            <asp:RequiredFieldValidator ID="rfvEspecialidad" runat="server" ErrorMessage="Debe seleccionar una especialidad" ControlToValidate="ddlEspecialidades" ForeColor="Red" ValidationGroup="1">*</asp:RequiredFieldValidator>
             <br /><br />
             Seleccione un medico:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:DropDownList ID="ddlMedicos" runat="server" Width="200px"></asp:DropDownList>
-            <asp:RequiredFieldValidator ID="rfvMedicos" runat="server" ControlToValidate="ddlMedicos" ErrorMessage="*" ForeColor="Red" ValidationGroup="1"></asp:RequiredFieldValidator>
+            <asp:RequiredFieldValidator ID="rfvMedicos" runat="server" ControlToValidate="ddlMedicos" ErrorMessage="Debe seleccionar un medico" ForeColor="Red" ValidationGroup="1">*</asp:RequiredFieldValidator>
             <br /><br />
             Seleccione un dia:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:DropDownList ID="ddlDias" runat="server" Width="200px"></asp:DropDownList>
-            <asp:RequiredFieldValidator ID="rfvDias" runat="server" ControlToValidate="ddlDias" ErrorMessage="*" ForeColor="Red" ValidationGroup="1"></asp:RequiredFieldValidator>
+            <asp:RequiredFieldValidator ID="rfvDias" runat="server" ControlToValidate="ddlDias" ErrorMessage="Debe seleccionar un dia" ForeColor="Red" ValidationGroup="1">*</asp:RequiredFieldValidator>
             <br /><br />
             Seleccione un horario:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:DropDownList ID="ddlHorarios" runat="server" Width="200px"></asp:DropDownList>
-            <asp:RequiredFieldValidator ID="rfvHorarios" runat="server" ControlToValidate="ddlHorarios" ErrorMessage="*" ForeColor="Red" ValidationGroup="1"></asp:RequiredFieldValidator>
+            <asp:RequiredFieldValidator ID="rfvHorarios" runat="server" ControlToValidate="ddlHorarios" ErrorMessage="Debe seleccionar un horario" ForeColor="Red" ValidationGroup="1">*</asp:RequiredFieldValidator>
             <br /><br />
             Seleccione un paciente:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:DropDownList ID="ddlPacientes" runat="server" Width="200px"></asp:DropDownList>
-            <asp:RequiredFieldValidator ID="rfvPacientes" runat="server" ControlToValidate="ddlPacientes" ErrorMessage="*" ForeColor="Red" ValidationGroup="1"></asp:RequiredFieldValidator>
+            <asp:RequiredFieldValidator ID="rfvPacientes" runat="server" ControlToValidate="ddlPacientes" ErrorMessage="Debe seleccionar un paciente" ForeColor="Red" ValidationGroup="1">*</asp:RequiredFieldValidator>
             <br /><br />
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
