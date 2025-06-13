@@ -10,7 +10,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:HyperLink ID="hlVolverPanelAdmin" runat="server" NavigateUrl="~/PanelAdministrador.aspx">Panel de Administrador</asp:HyperLink>
+            <asp:HyperLink ID="hlVolverPanelAdmin" runat="server" NavigateUrl="~/PanelUsuarioAdministrador.aspx">Panel de Administrador</asp:HyperLink>
             <br /><br />
             <asp:Label ID="lblInformes" runat="server" Text="Informes" Font-Bold="True" Font-Size="X-Large"></asp:Label>
             <br /><br />

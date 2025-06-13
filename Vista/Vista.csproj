@@ -74,9 +74,10 @@
     <Content Include="EliminarPaciente.aspx" />
     <Content Include="Informes.aspx" />
     <Content Include="Inicio.aspx" />
-    <Content Include="PanelAdministrador.aspx" />
+    <Content Include="PanelUsuarioAdministrador.aspx" />
     <Content Include="PanelMedicos.aspx" />
     <Content Include="PanelPacientes.aspx" />
+    <Content Include="PanelUsuarioMedico.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -129,12 +130,12 @@
     <Compile Include="Inicio.aspx.designer.cs">
       <DependentUpon>Inicio.aspx</DependentUpon>
     </Compile>
-    <Compile Include="PanelAdministrador.aspx.cs">
-      <DependentUpon>PanelAdministrador.aspx</DependentUpon>
+    <Compile Include="PanelUsuarioAdministrador.aspx.cs">
+      <DependentUpon>PanelUsuarioAdministrador.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="PanelAdministrador.aspx.designer.cs">
-      <DependentUpon>PanelAdministrador.aspx</DependentUpon>
+    <Compile Include="PanelUsuarioAdministrador.aspx.designer.cs">
+      <DependentUpon>PanelUsuarioAdministrador.aspx</DependentUpon>
     </Compile>
     <Compile Include="PanelMedicos.aspx.cs">
       <DependentUpon>PanelMedicos.aspx</DependentUpon>
@@ -149,6 +150,13 @@
     </Compile>
     <Compile Include="PanelPacientes.aspx.designer.cs">
       <DependentUpon>PanelPacientes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PanelUsuarioMedico.aspx.cs">
+      <DependentUpon>PanelUsuarioMedico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PanelUsuarioMedico.aspx.designer.cs">
+      <DependentUpon>PanelUsuarioMedico.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -18,7 +18,7 @@
             <table class="auto-style1">
             <tr>
                 <td>
-                    <asp:HyperLink ID="hlVolverPanelAdmin" runat="server" NavigateUrl="~/PanelAdministrador.aspx">Panel de Administrador</asp:HyperLink>
+                    <asp:HyperLink ID="hlVolverPanelAdmin" runat="server" NavigateUrl="~/PanelUsuarioAdministrador.aspx">Panel de Administrador</asp:HyperLink>
                 </td>
                 <td>
                     <asp:HyperLink ID="hlAgregarPaciente" runat="server" NavigateUrl="~/AgregarPaciente.aspx">Agregar Paciente</asp:HyperLink>
