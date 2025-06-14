@@ -25,8 +25,7 @@
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:Button ID="btnIngresar" runat="server" Text="Ingresar" ValidationGroup="1" OnClick="btnIngresar_Click" />
-            <br /><br />
-            <asp:HyperLink ID="hlVolver" runat="server" NavigateUrl="~/Inicio.aspx">Volver al inicio</asp:HyperLink>
+            <br />
             <asp:ValidationSummary ID="vsLogin" runat="server" ForeColor="Red" ValidationGroup="1" />
         </div>
     </form>
