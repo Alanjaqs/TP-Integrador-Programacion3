@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\bubit\\Desktop\\TP-Final-Alan\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2B2490BF-E966-40B9-9BD2-D937380D7821}|Vista\\Vista.csproj|c:\\users\\bubit\\desktop\\tp-final-alan\\vista\\agregarmedico.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{2B2490BF-E966-40B9-9BD2-D937380D7821}|Vista\\Vista.csproj|solutionrelative:vista\\agregarmedico.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2B2490BF-E966-40B9-9BD2-D937380D7821}|Vista\\Vista.csproj|C:\\Users\\bubit\\Desktop\\TP-Final-Alan\\vista\\agregarpaciente.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{2B2490BF-E966-40B9-9BD2-D937380D7821}|Vista\\Vista.csproj|solutionrelative:vista\\agregarpaciente.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2490BF-E966-40B9-9BD2-D937380D7821}|Vista\\Vista.csproj|c:\\users\\bubit\\desktop\\tp-final-alan\\vista\\agregarmedico.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{2B2490BF-E966-40B9-9BD2-D937380D7821}|Vista\\Vista.csproj|solutionrelative:vista\\agregarmedico.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,7 +26,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AgregarMedico.aspx",
               "DocumentMoniker": "C:\\Users\\bubit\\Desktop\\TP-Final-Alan\\Vista\\AgregarMedico.aspx",
               "RelativeDocumentMoniker": "Vista\\AgregarMedico.aspx",
@@ -39,7 +39,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AgregarPaciente.aspx",
               "DocumentMoniker": "C:\\Users\\bubit\\Desktop\\TP-Final-Alan\\Vista\\AgregarPaciente.aspx",
               "RelativeDocumentMoniker": "Vista\\AgregarPaciente.aspx",
