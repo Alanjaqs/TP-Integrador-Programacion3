@@ -16,7 +16,7 @@
             Usuario:&nbsp;&nbsp;
             <asp:Label ID="lblUsuario" runat="server" Text=""></asp:Label>
             <br />
-            <asp:HyperLink ID="hlCerrar" runat="server" NavigateUrl="~/Inicio.aspx">Cerrar sesion</asp:HyperLink>
+            <asp:HyperLink ID="hlCerrar" runat="server" NavigateUrl="~/CerrarSesion.aspx">Cerrar sesion</asp:HyperLink>
             <br /><br />
             Buscar por nombre de paciente:&nbsp;&nbsp;
             <asp:TextBox ID="txtNombre" runat="server" Width="200px"></asp:TextBox>

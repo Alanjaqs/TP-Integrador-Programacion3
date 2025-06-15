@@ -15,7 +15,7 @@
             Usuario:&nbsp;&nbsp;
             <asp:Label ID="lblUsuario" runat="server" Text=""></asp:Label>
             <br />
-            <asp:HyperLink ID="hlCerrar" runat="server" NavigateUrl="~/Inicio.aspx">Cerrar sesion</asp:HyperLink>
+            <asp:HyperLink ID="hlCerrar" runat="server" NavigateUrl="~/CerrarSesion.aspx">Cerrar sesion</asp:HyperLink>
             <br /><br />
             <asp:Button ID="btnPacientes" runat="server" Text="ABML Pacientes" Width="200px" OnClick="btnPacientes_Click" />
             <br /><br />
